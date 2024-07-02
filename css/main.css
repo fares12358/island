@@ -1,25 +1,24 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.bordring {
-    border: 1px solid red;
-}
-
 body,html {
+    width: 100%;
+}
+.main{
     width: 100%;
     height: auto;
     background: transparent;
-    height: 100vh;
     overflow: auto;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     transition: 0.5s;
-}
+    height: 100vh;
 
+}
 .bg-1{
     background-image: url(/img/bg.png);
 }

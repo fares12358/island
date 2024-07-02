@@ -32,7 +32,7 @@ let Dom3 = `
         class="ps-4  "><i class="fa-solid fa-arrow-right"></i></span></div>
 `;
 
-let body = document.querySelector('body');
+let body = document.querySelector('body .main');
 
 let content = document.querySelector(".text-holder");
 
