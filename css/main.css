@@ -75,6 +75,8 @@ body,html {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    bottom: 15px;
 }
 
 .swap-img .swap-bg {
